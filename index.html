@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="en-US">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Counter</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/1b44a37aaf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script src="index.js" defer></script>
+        <div class="container">
+            <div class="navbar flex-row-more-items">
+                <div class="navbar-item flex-center-one-item-col hidden"></div>
+                <div class="navbar-item flex-center-one-item-col"><span>click <a href="#"><em>here</em></a> to go to the remote repo for this project</span></div>
+                <div class="navbar-item flex-center-one-item-row hidden"></div>
+            </div>
+            <div id="page">
+                <div class="display flex-center-one-item-col">
+                    <div class="flex-center-one-item-col"><div id="panel">0</div></div>
+                </div>
+                <div class="buttons flex-row-more-items">
+                    <div onclick="increment()" class="incrementer"><button>increment</button></div>
+                    <div onclick="decrement()" class="decrementer "><button>decrement</button></div>
+                    <div onclick="reset()" class="reset"><button>reset</button></div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="creator flex-center-one-item-col">let's connect</div>
+                <div class="platforms">
+                    <div class="flex-center-one-item-col icon"><a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></div>
+                    <div class="flex-center-one-item-col icon"><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="flex-center-one-item-col icon"><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="flex-center-one-item-col icon"><a href="https://ca.linkedin.com/in/shafe-a-948385208?trk=people-guest_people_search-card" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="flex-center-one-item-col icon"><a href="https://github.com/ShafeAhmed" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                </div>
+                <div class="copyright flex-center-one-item-row"><div><i class="fa-regular fa-copyright"></i> shafe ahmed 2022</div></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,147 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+   
+body{
+    padding-top: 70px;
+    font-size: 16px;
+    background-color: azure;
+}
+.container{
+    margin: 5px;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    border-bottom: solid 2px darkblue;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(204, 202, 209);
+    position: fixed;
+    top: 0;
+    gap: 5px;
+}
+.navbar-item{
+    width: 100%;
+    height: 100%;
+    
+}
+.navbar-item span{
+    color: #000;
+
+}
+a:hover{
+    transform: scale(1.5);
+}
+#page{
+    height: 75vh;
+    margin: 4vh 10% 0 10%;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+}
+
+.display{
+    margin: 5em 15em 0 15em;
+    padding: 50px;
+    border-radius: 10px;
+}
+#panel{
+   font-size: 3em; 
+}
+.flex-center-one-item-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center-one-item-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row-more-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col-more-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    justify-content: space-evenly;
+    margin: -10px 0 0 0;
+}
+.buttons button{
+    width:120px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: #132594;
+    color: aliceblue;
+    font-size: 18px;
+}
+.reset button{
+    background-color: red;
+}
+.incrementer button{
+    background-color: green;
+}
+#footer{
+    width: 100%;
+    height: 10vh;
+    background-color:#c8c9c6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 60PX;
+    gap: 25px;
+    border-radius: 5px;
+    color: darkblue;
+}
+.fa-brands {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.platforms{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    margin: 5px 50px 5px 50px;
+}
+.creator{
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+}
+.copyright{
+    text-transform: capitalize;
+    font-size: small;
+} 
+}
